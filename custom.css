@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.border-circle {
+  border: 3px solid green;
+  border-radius: 20px;
+}
+
+.banner {
+  padding: 20px;
+  height: 100%;
+  background: url(./banner.jpg) center center no-repeat;
+}
+.banner .abt-login {
+  text-align: right;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  height: 80px;
+  width: 100%;
+}
+.banner .abt-login .abt, .banner .abt-login .login {
+  text-decoration: none;
+  padding: 5px;
+}
+.banner .abt-login .abt .abt, .banner .abt-login .login .abt {
+  margin-right: 20px;
+}
+.banner .abt-login .abt .login .border-circle, .banner .abt-login .login .login .border-circle {
+  margin-right: 70px;
+}
+.banner .logo {
+  margin-top: 40px;
+  height: 100px;
+  background: url(./hapoERP.png) center center no-repeat;
+}
+.banner .icon {
+  display: flex;
+}
+.banner .icon .left, .banner .icon .center, .banner .icon .right {
+  width: calc(100%/3);
+  text-align: center;
+}
+.banner .icon .left span, .banner .icon .center span, .banner .icon .right span {
+  margin-top: 5px;
+  display: block;
+  font-size: 20px;
+}
+.banner .icon .left img, .banner .icon .center img, .banner .icon .right img {
+  width: 30px;
+  height: 30px;
+}
+.banner .text {
+  margin-top: 20px;
+  color: #283238;
+  font-family: Roboto;
+  font-style: italic;
+  letter-spacing: -0.02px;
+  text-align: center;
+}
+.banner .btn-start {
+  text-align: center;
+  margin-top: 20px;
+  text-align: center;
+}
+.banner .btn-start button {
+  border-radius: 100px;
+  background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+  font-family: Roboto;
+  color: #FFFFFF;
+  letter-spacing: 1.33px;
+  line-height: 21px;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 40px;
+  width: 144px;
+}
